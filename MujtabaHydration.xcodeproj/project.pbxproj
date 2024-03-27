@@ -51,6 +51,11 @@
 		423D5DEC2BB3FAE4008A672A /* MujtabaHydration */ = {
 			isa = PBXGroup;
 			children = (
+				423D5DFF2BB3FC1C008A672A /* Views */,
+				423D5DFE2BB3FC14008A672A /* View Model */,
+				423D5DFD2BB3FC0A008A672A /* Health */,
+				423D5DFC2BB3FC03008A672A /* Helpers */,
+				423D5DFB2BB3FBFC008A672A /* Models */,
 				423D5DED2BB3FAE4008A672A /* MujtabaHydrationApp.swift */,
 				423D5DEF2BB3FAE4008A672A /* ContentView.swift */,
 				423D5DF12BB3FAE5008A672A /* Assets.xcassets */,
@@ -65,6 +70,41 @@
 				423D5DF42BB3FAE5008A672A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		423D5DFB2BB3FBFC008A672A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		423D5DFC2BB3FC03008A672A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		423D5DFD2BB3FC0A008A672A /* Health */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Health;
+			sourceTree = "<group>";
+		};
+		423D5DFE2BB3FC14008A672A /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		423D5DFF2BB3FC1C008A672A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
