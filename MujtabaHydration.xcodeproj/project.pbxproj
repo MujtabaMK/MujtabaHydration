@@ -15,6 +15,8 @@
 		423D5E042BB3FD69008A672A /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E032BB3FD69008A672A /* HistoryView.swift */; };
 		423D5E092BB3FF86008A672A /* WaterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E082BB3FF86008A672A /* WaterData.swift */; };
 		423D5E0B2BB3FFAB008A672A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E0A2BB3FFAB008A672A /* Constants.swift */; };
+		423D5E0D2BB40007008A672A /* CustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E0C2BB40007008A672A /* CustomButtons.swift */; };
+		423D5E0F2BB40023008A672A /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E0E2BB40023008A672A /* DateHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		423D5E032BB3FD69008A672A /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		423D5E082BB3FF86008A672A /* WaterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterData.swift; sourceTree = "<group>"; };
 		423D5E0A2BB3FFAB008A672A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		423D5E0C2BB40007008A672A /* CustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtons.swift; sourceTree = "<group>"; };
+		423D5E0E2BB40023008A672A /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				423D5E0A2BB3FFAB008A672A /* Constants.swift */,
+				423D5E0C2BB40007008A672A /* CustomButtons.swift */,
+				423D5E0E2BB40023008A672A /* DateHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -216,7 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				423D5DF02BB3FAE4008A672A /* ContentView.swift in Sources */,
+				423D5E0F2BB40023008A672A /* DateHelper.swift in Sources */,
 				423D5E042BB3FD69008A672A /* HistoryView.swift in Sources */,
+				423D5E0D2BB40007008A672A /* CustomButtons.swift in Sources */,
 				423D5E092BB3FF86008A672A /* WaterData.swift in Sources */,
 				423D5E022BB3FD46008A672A /* WaterView.swift in Sources */,
 				423D5DEE2BB3FAE4008A672A /* MujtabaHydrationApp.swift in Sources */,
