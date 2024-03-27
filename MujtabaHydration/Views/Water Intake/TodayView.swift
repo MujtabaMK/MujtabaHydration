@@ -114,19 +114,19 @@ struct TodayView: View {
                     Button(action: {
                         let percentage = String(format: "%.0f%%", min(self.hydration.progress, 1.0) * 100.0)
                         
-                        if percentage.contains("0%"){
+                        if percentage == "0%"{
                             alertMessage = "Drink water"
                             AlertShow = "0"
                             showingalert = true
                         }else{
-                            for(index, entity) in yourEntities.enumerated(){
+                            for(_, entity) in yourEntities.enumerated(){
                                 if entity.data == DateHelper.getDateString(day: hydration.date){
                                     isExist = true
                                 }
                             }
                             if !isExist{
                                 AlertShowTwoButton = "1"
-                                alertMessageTwoButton = "You Can Save it only one time are you sure you want to save?"
+                                alertMessageTwoButton = "You can save it only one time are you sure you want to save?"
                                 showingAlertTwoButton = true
                             }else{
                                 alertMessage = "Already exist"

@@ -33,6 +33,7 @@
 		423D5E2D2BB422B8008A672A /* CornerRadiusStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E2C2BB422B8008A672A /* CornerRadiusStyle.swift */; };
 		423D5E2F2BB422E4008A672A /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E2E2BB422E4008A672A /* CustomTabView.swift */; };
 		423D5E332BB4278A008A672A /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E322BB4278A008A672A /* CoreDataManager.swift */; };
+		423D5E352BB43440008A672A /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E342BB43440008A672A /* HistoryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		423D5E2C2BB422B8008A672A /* CornerRadiusStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusStyle.swift; sourceTree = "<group>"; };
 		423D5E2E2BB422E4008A672A /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		423D5E322BB4278A008A672A /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		423D5E342BB43440008A672A /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				423D5E032BB3FD69008A672A /* HistoryView.swift */,
+				423D5E342BB43440008A672A /* HistoryCell.swift */,
 			);
 			path = History;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				423D5E2B2BB42266008A672A /* TabBottomView.swift in Sources */,
 				423D5E292BB4216C008A672A /* TabItemView.swift in Sources */,
 				423D5E182BB4021F008A672A /* AddIntakeView.swift in Sources */,
+				423D5E352BB43440008A672A /* HistoryCell.swift in Sources */,
 				423D5E022BB3FD46008A672A /* WaterView.swift in Sources */,
 				423D5DEE2BB3FAE4008A672A /* MujtabaHydrationApp.swift in Sources */,
 				423D5E112BB40059008A672A /* HealthModel.swift in Sources */,
