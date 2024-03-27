@@ -11,6 +11,10 @@
 		423D5DF02BB3FAE4008A672A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5DEF2BB3FAE4008A672A /* ContentView.swift */; };
 		423D5DF22BB3FAE5008A672A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423D5DF12BB3FAE5008A672A /* Assets.xcassets */; };
 		423D5DF52BB3FAE5008A672A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423D5DF42BB3FAE5008A672A /* Preview Assets.xcassets */; };
+		423D5E022BB3FD46008A672A /* WaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E012BB3FD46008A672A /* WaterView.swift */; };
+		423D5E042BB3FD69008A672A /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E032BB3FD69008A672A /* HistoryView.swift */; };
+		423D5E092BB3FF86008A672A /* WaterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E082BB3FF86008A672A /* WaterData.swift */; };
+		423D5E0B2BB3FFAB008A672A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E0A2BB3FFAB008A672A /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		423D5DF12BB3FAE5008A672A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		423D5DF42BB3FAE5008A672A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		423D5E002BB3FC83008A672A /* MujtabaHydration.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MujtabaHydration.entitlements; sourceTree = "<group>"; };
+		423D5E012BB3FD46008A672A /* WaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterView.swift; sourceTree = "<group>"; };
+		423D5E032BB3FD69008A672A /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		423D5E082BB3FF86008A672A /* WaterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterData.swift; sourceTree = "<group>"; };
+		423D5E0A2BB3FFAB008A672A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +67,6 @@
 				423D5DFC2BB3FC03008A672A /* Helpers */,
 				423D5DFB2BB3FBFC008A672A /* Models */,
 				423D5DED2BB3FAE4008A672A /* MujtabaHydrationApp.swift */,
-				423D5DEF2BB3FAE4008A672A /* ContentView.swift */,
 				423D5DF12BB3FAE5008A672A /* Assets.xcassets */,
 				423D5DF32BB3FAE5008A672A /* Preview Content */,
 			);
@@ -77,6 +84,7 @@
 		423D5DFB2BB3FBFC008A672A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				423D5E082BB3FF86008A672A /* WaterData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -84,6 +92,7 @@
 		423D5DFC2BB3FC03008A672A /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				423D5E0A2BB3FFAB008A672A /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -105,8 +114,35 @@
 		423D5DFF2BB3FC1C008A672A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				423D5E052BB3FF36008A672A /* Main */,
+				423D5E062BB3FF43008A672A /* Water Intake */,
+				423D5E072BB3FF4C008A672A /* History */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		423D5E052BB3FF36008A672A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				423D5DEF2BB3FAE4008A672A /* ContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		423D5E062BB3FF43008A672A /* Water Intake */ = {
+			isa = PBXGroup;
+			children = (
+				423D5E012BB3FD46008A672A /* WaterView.swift */,
+			);
+			path = "Water Intake";
+			sourceTree = "<group>";
+		};
+		423D5E072BB3FF4C008A672A /* History */ = {
+			isa = PBXGroup;
+			children = (
+				423D5E032BB3FD69008A672A /* HistoryView.swift */,
+			);
+			path = History;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,7 +216,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				423D5DF02BB3FAE4008A672A /* ContentView.swift in Sources */,
+				423D5E042BB3FD69008A672A /* HistoryView.swift in Sources */,
+				423D5E092BB3FF86008A672A /* WaterData.swift in Sources */,
+				423D5E022BB3FD46008A672A /* WaterView.swift in Sources */,
 				423D5DEE2BB3FAE4008A672A /* MujtabaHydrationApp.swift in Sources */,
+				423D5E0B2BB3FFAB008A672A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +358,9 @@
 				DEVELOPMENT_TEAM = 6NK7S2PWH2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "This apps requires access to health data in order to write water intake";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This apps requires access to health data in order to write water intake";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This apps requires access to health data in order to write water intake";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -348,6 +391,9 @@
 				DEVELOPMENT_TEAM = 6NK7S2PWH2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "This apps requires access to health data in order to write water intake";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This apps requires access to health data in order to write water intake";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This apps requires access to health data in order to write water intake";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
