@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct MujtabaHydrationApp: App {
+    let dataController = CoreDataManager().context
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.managedObjectContext, dataController)
         }
     }
 }

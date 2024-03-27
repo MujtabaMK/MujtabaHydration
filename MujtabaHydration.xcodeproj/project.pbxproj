@@ -17,6 +17,22 @@
 		423D5E0B2BB3FFAB008A672A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E0A2BB3FFAB008A672A /* Constants.swift */; };
 		423D5E0D2BB40007008A672A /* CustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E0C2BB40007008A672A /* CustomButtons.swift */; };
 		423D5E0F2BB40023008A672A /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E0E2BB40023008A672A /* DateHelper.swift */; };
+		423D5E112BB40059008A672A /* HealthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E102BB40059008A672A /* HealthModel.swift */; };
+		423D5E132BB40080008A672A /* HydrationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E122BB40080008A672A /* HydrationModel.swift */; };
+		423D5E162BB400E9008A672A /* MujtabaHydration.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E142BB400E9008A672A /* MujtabaHydration.xcdatamodeld */; };
+		423D5E182BB4021F008A672A /* AddIntakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E172BB4021F008A672A /* AddIntakeView.swift */; };
+		423D5E1A2BB40261008A672A /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E192BB40261008A672A /* DrinkView.swift */; };
+		423D5E1C2BB402A7008A672A /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E1B2BB402A7008A672A /* InfoView.swift */; };
+		423D5E1E2BB402C4008A672A /* ProgressCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E1D2BB402C4008A672A /* ProgressCircle.swift */; };
+		423D5E202BB40302008A672A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E1F2BB40302008A672A /* SettingsView.swift */; };
+		423D5E222BB40335008A672A /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E212BB40335008A672A /* TodayView.swift */; };
+		423D5E242BB41BC9008A672A /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E232BB41BC9008A672A /* extension.swift */; };
+		423D5E272BB42120008A672A /* TabItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E262BB42120008A672A /* TabItemData.swift */; };
+		423D5E292BB4216C008A672A /* TabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E282BB4216C008A672A /* TabItemView.swift */; };
+		423D5E2B2BB42266008A672A /* TabBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E2A2BB42266008A672A /* TabBottomView.swift */; };
+		423D5E2D2BB422B8008A672A /* CornerRadiusStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E2C2BB422B8008A672A /* CornerRadiusStyle.swift */; };
+		423D5E2F2BB422E4008A672A /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E2E2BB422E4008A672A /* CustomTabView.swift */; };
+		423D5E332BB4278A008A672A /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5E322BB4278A008A672A /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +48,22 @@
 		423D5E0A2BB3FFAB008A672A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		423D5E0C2BB40007008A672A /* CustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtons.swift; sourceTree = "<group>"; };
 		423D5E0E2BB40023008A672A /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		423D5E102BB40059008A672A /* HealthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthModel.swift; sourceTree = "<group>"; };
+		423D5E122BB40080008A672A /* HydrationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationModel.swift; sourceTree = "<group>"; };
+		423D5E152BB400E9008A672A /* MujtabaHydration.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MujtabaHydration.xcdatamodel; sourceTree = "<group>"; };
+		423D5E172BB4021F008A672A /* AddIntakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIntakeView.swift; sourceTree = "<group>"; };
+		423D5E192BB40261008A672A /* DrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkView.swift; sourceTree = "<group>"; };
+		423D5E1B2BB402A7008A672A /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		423D5E1D2BB402C4008A672A /* ProgressCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircle.swift; sourceTree = "<group>"; };
+		423D5E1F2BB40302008A672A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		423D5E212BB40335008A672A /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		423D5E232BB41BC9008A672A /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		423D5E262BB42120008A672A /* TabItemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemData.swift; sourceTree = "<group>"; };
+		423D5E282BB4216C008A672A /* TabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemView.swift; sourceTree = "<group>"; };
+		423D5E2A2BB42266008A672A /* TabBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBottomView.swift; sourceTree = "<group>"; };
+		423D5E2C2BB422B8008A672A /* CornerRadiusStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusStyle.swift; sourceTree = "<group>"; };
+		423D5E2E2BB422E4008A672A /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		423D5E322BB4278A008A672A /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +105,7 @@
 				423D5DED2BB3FAE4008A672A /* MujtabaHydrationApp.swift */,
 				423D5DF12BB3FAE5008A672A /* Assets.xcassets */,
 				423D5DF32BB3FAE5008A672A /* Preview Content */,
+				423D5E142BB400E9008A672A /* MujtabaHydration.xcdatamodeld */,
 			);
 			path = MujtabaHydration;
 			sourceTree = "<group>";
@@ -99,6 +132,8 @@
 				423D5E0A2BB3FFAB008A672A /* Constants.swift */,
 				423D5E0C2BB40007008A672A /* CustomButtons.swift */,
 				423D5E0E2BB40023008A672A /* DateHelper.swift */,
+				423D5E232BB41BC9008A672A /* extension.swift */,
+				423D5E2C2BB422B8008A672A /* CornerRadiusStyle.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -106,6 +141,7 @@
 		423D5DFD2BB3FC0A008A672A /* Health */ = {
 			isa = PBXGroup;
 			children = (
+				423D5E102BB40059008A672A /* HealthModel.swift */,
 			);
 			path = Health;
 			sourceTree = "<group>";
@@ -113,6 +149,7 @@
 		423D5DFE2BB3FC14008A672A /* View Model */ = {
 			isa = PBXGroup;
 			children = (
+				423D5E122BB40080008A672A /* HydrationModel.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -120,6 +157,8 @@
 		423D5DFF2BB3FC1C008A672A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				423D5E302BB42751008A672A /* Core Data */,
+				423D5E252BB420F0008A672A /* TabBar */,
 				423D5E052BB3FF36008A672A /* Main */,
 				423D5E062BB3FF43008A672A /* Water Intake */,
 				423D5E072BB3FF4C008A672A /* History */,
@@ -139,6 +178,12 @@
 			isa = PBXGroup;
 			children = (
 				423D5E012BB3FD46008A672A /* WaterView.swift */,
+				423D5E172BB4021F008A672A /* AddIntakeView.swift */,
+				423D5E192BB40261008A672A /* DrinkView.swift */,
+				423D5E1B2BB402A7008A672A /* InfoView.swift */,
+				423D5E1D2BB402C4008A672A /* ProgressCircle.swift */,
+				423D5E1F2BB40302008A672A /* SettingsView.swift */,
+				423D5E212BB40335008A672A /* TodayView.swift */,
 			);
 			path = "Water Intake";
 			sourceTree = "<group>";
@@ -149,6 +194,33 @@
 				423D5E032BB3FD69008A672A /* HistoryView.swift */,
 			);
 			path = History;
+			sourceTree = "<group>";
+		};
+		423D5E252BB420F0008A672A /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				423D5E262BB42120008A672A /* TabItemData.swift */,
+				423D5E282BB4216C008A672A /* TabItemView.swift */,
+				423D5E2A2BB42266008A672A /* TabBottomView.swift */,
+				423D5E2E2BB422E4008A672A /* CustomTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		423D5E302BB42751008A672A /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				423D5E312BB4277C008A672A /* Manager */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		423D5E312BB4277C008A672A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				423D5E322BB4278A008A672A /* CoreDataManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,14 +293,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				423D5E272BB42120008A672A /* TabItemData.swift in Sources */,
 				423D5DF02BB3FAE4008A672A /* ContentView.swift in Sources */,
+				423D5E1A2BB40261008A672A /* DrinkView.swift in Sources */,
 				423D5E0F2BB40023008A672A /* DateHelper.swift in Sources */,
+				423D5E242BB41BC9008A672A /* extension.swift in Sources */,
+				423D5E132BB40080008A672A /* HydrationModel.swift in Sources */,
+				423D5E332BB4278A008A672A /* CoreDataManager.swift in Sources */,
+				423D5E1E2BB402C4008A672A /* ProgressCircle.swift in Sources */,
 				423D5E042BB3FD69008A672A /* HistoryView.swift in Sources */,
 				423D5E0D2BB40007008A672A /* CustomButtons.swift in Sources */,
+				423D5E1C2BB402A7008A672A /* InfoView.swift in Sources */,
+				423D5E222BB40335008A672A /* TodayView.swift in Sources */,
 				423D5E092BB3FF86008A672A /* WaterData.swift in Sources */,
+				423D5E2F2BB422E4008A672A /* CustomTabView.swift in Sources */,
+				423D5E2D2BB422B8008A672A /* CornerRadiusStyle.swift in Sources */,
+				423D5E202BB40302008A672A /* SettingsView.swift in Sources */,
+				423D5E2B2BB42266008A672A /* TabBottomView.swift in Sources */,
+				423D5E292BB4216C008A672A /* TabItemView.swift in Sources */,
+				423D5E182BB4021F008A672A /* AddIntakeView.swift in Sources */,
 				423D5E022BB3FD46008A672A /* WaterView.swift in Sources */,
 				423D5DEE2BB3FAE4008A672A /* MujtabaHydrationApp.swift in Sources */,
+				423D5E112BB40059008A672A /* HealthModel.swift in Sources */,
 				423D5E0B2BB3FFAB008A672A /* Constants.swift in Sources */,
+				423D5E162BB400E9008A672A /* MujtabaHydration.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +530,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		423D5E142BB400E9008A672A /* MujtabaHydration.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				423D5E152BB400E9008A672A /* MujtabaHydration.xcdatamodel */,
+			);
+			currentVersion = 423D5E152BB400E9008A672A /* MujtabaHydration.xcdatamodel */;
+			name = MujtabaHydration.xcdatamodeld;
+			path = "/Users/Shared/Previously Relocated Items/Security/Pritish/MujtabaHydration/MujtabaHydration/MujtabaHydration.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 423D5DE22BB3FAE4008A672A /* Project object */;
 }

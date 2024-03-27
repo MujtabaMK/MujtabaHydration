@@ -8,11 +8,31 @@
 import SwiftUI
 
 struct WaterView: View {
+    // App uses two models
+    private var health: HealthModel
+    private var hydration: HydrationModel
+    
+    init() {
+        health = HealthModel()
+        hydration = HydrationModel(healthModel: health)
+    }
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TodayView(hydration: hydration)
+            .onAppear {
+                
+                // On appearance, request authorization of HealthKit
+                // (App works without authorization)
+                health.requestAuthorization { success in
+                    if !success {
+                        print("Access not granted!")
+                    }
+                }
+            }
     }
 }
 
 #Preview {
     WaterView()
+        .preferredColorScheme(.light)
 }
