@@ -64,15 +64,16 @@ struct HistoryCell: View {
                 Image(systemName: "trash.fill")
                     .resizable()
                     .renderingMode(.template)
-                    .frame(width: 20, height: 20)
+                    .frame(width: 16, height: 20)
                     .foregroundColor(colorScheme == .light ? .black : .white)
             }
         }
         .padding(.vertical)
         .padding(.horizontal)
-        .background(colorScheme == .light ? .gray : Color(hex: 0x2E2E2E))
-        .frame(width: getRect().width - 12)
+        .background(colorScheme == .light ? .white : .black)
+        .frame(width: getRect().width - 40)
         .cornerRadius(15)
         .padding(.horizontal)
+        .shadow(color: .gray, radius: 3)
     }
 }

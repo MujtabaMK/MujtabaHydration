@@ -129,7 +129,7 @@ struct TodayView: View {
                                 alertMessageTwoButton = "You can save it only one time are you sure you want to save?"
                                 showingAlertTwoButton = true
                             }else{
-                                alertMessage = "Already exist"
+                                alertMessage = "Already exist. Delete previous one"
                                 AlertShow = "0"
                                 showingalert = true
                             }

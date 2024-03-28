@@ -42,6 +42,7 @@ struct HistoryView: View {
                     HistoryCell(Water: water)
                 }
             }
+            .padding(.top, 5)
             Spacer()
         }
         .alert(alertMessageTwoButton, isPresented: $showingAlertTwoButton) {
