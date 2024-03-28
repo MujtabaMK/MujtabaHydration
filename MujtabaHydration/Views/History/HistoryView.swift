@@ -31,19 +31,21 @@ struct HistoryView: View {
             }
             
             Divider()
-            
-            ForEach(Array(yourEntities.enumerated()), id: \.offset) { index, water in
-                Button{
-                    indexValue = index
-                    AlertShowTwoButton = "1"
-                    alertMessageTwoButton = "Are you sure you want to delete?"
-                    showingAlertTwoButton = true
-                }label: {
-                    HistoryCell(Water: water)
+            ScrollView(.vertical, showsIndicators: false){
+                
+                ForEach(Array(yourEntities.enumerated()), id: \.offset) { index, water in
+                    Button{
+                        indexValue = index
+                        AlertShowTwoButton = "1"
+                        alertMessageTwoButton = "Are you sure you want to delete?"
+                        showingAlertTwoButton = true
+                    }label: {
+                        HistoryCell(Water: water)
+                            .padding(.vertical, 5)
+                    }
                 }
+                .padding(.top, 5)
             }
-            .padding(.top, 5)
-            Spacer()
         }
         .alert(alertMessageTwoButton, isPresented: $showingAlertTwoButton) {
             Button("Cancel", role: .cancel) {
